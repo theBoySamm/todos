@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#333!important;
+}
+label{
+    color: #fff;
+}
+.row-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.form-wrapper{
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+nav{
+    display: flex!important;
+    justify-content: space-around !important;
+    align-items: center!important;
+}
+
+/* .flex-box{
+    margin-left: a;
+} */

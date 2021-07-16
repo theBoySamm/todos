@@ -1,0 +1,29 @@
+<%- include ('header') -%>
+
+
+<div class="container">
+  <div class="row row-custom">
+    <div class="form-wrapper">
+
+      <form action="/blog" method="POST" autocomplete="off">
+        <div class="form-group mb-1">
+          <label for="exampleInputEmail1"> Write Post </label>
+          <br />
+          <input type="text" name="heading" class="w-100" />
+        </div>
+
+        <div class="form-group">
+          <textarea type="email" class="form-control" name="posts"></textarea>
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+
+        <button type="submit" class="btn btn-primary">Share</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<%- include ('footer') -%>
